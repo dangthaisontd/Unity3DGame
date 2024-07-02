@@ -19,7 +19,7 @@ public class PlayerAttackHand : MonoBehaviour
     }
     void Update()
     {
-        if (Time.time > nextAttackTime && Input.GetButtonDown("Fire1"))
+        if (Time.time > nextAttackTime && Input.GetKeyDown(KeyCode.R))
         {
             nextAttackTime = Time.time + attackRate;
             Attack();
