@@ -6,7 +6,7 @@ public class EnemyAI : MonoBehaviour
 {
 
     public Transform player;
-    public float 
+    public float detectionRange = 10f;
     // Start is called before the first frame update
     void Start()
     {
